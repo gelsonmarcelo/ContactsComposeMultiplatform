@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.plcoding.contactscomposemultiplatform.contacts.domain.Contact
 import com.plcoding.contactscomposemultiplatform.core.presentation.rememberBitmapFromBytes
+import com.plcoding.contactscomposemultiplatform.database.ContactDatabase
 
 @Composable
 fun ContactPhoto(
