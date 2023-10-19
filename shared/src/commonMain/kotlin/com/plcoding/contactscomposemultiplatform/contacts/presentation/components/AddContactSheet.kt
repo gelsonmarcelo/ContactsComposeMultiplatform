@@ -59,7 +59,7 @@ fun AddContactSheet(
                             .clip(RoundedCornerShape(40))
                             .background(MaterialTheme.colorScheme.secondaryContainer)
                             .clickable {
-                                onEvent(ContactListEvent.OnAddNewContactClick)
+                                onEvent(ContactListEvent.OnAddPhotoClicked)
                             }
                             .border(
                                 width = 1.dp,
